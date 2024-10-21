@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Getting Strated: Serving Web Content</title>
+        <meta http-equiv="Content-Tyoe" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="/style.css">
+    </head>
+    <body>
+        <h1 th:text="|Bienvenido a ${name}!|"></h1>
+
+        <div sec:authorize="isAuthenticated()">
+            <h1 th:inline="text">Hola <span th:remove="tag" sec:authentication="name"></span>!</h1>
+        </div>
+    </body>
+</html>
