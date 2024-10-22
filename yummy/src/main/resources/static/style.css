@@ -1,0 +1,75 @@
+/* Basic styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #6c3483;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline; /* Hace que los ítems del menú estén en una línea horizontal */
+  margin-right: 20px; /* Espacio entre los ítems del menú */
+}
+
+#loginderecha {
+  display: flex; /* Cambia a flex para un mejor control de alineación */
+  justify-content: flex-end; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+  
+  h1, h2 {
+    margin: 10px 0;
+  }
+  
+  /* Style the welcome message */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Style the authenticated user greeting */
+  .authenticated {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #666;
+  }
+
+
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 60%;
+      margin: auto;
+  }
+
+
+
+
+
+
+
